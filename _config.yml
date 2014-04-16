@@ -1,0 +1,4 @@
+name: index
+markdown: redcarpet
+pygments: true
+#relative_permalinks: false
