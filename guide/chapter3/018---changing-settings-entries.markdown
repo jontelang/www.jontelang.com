@@ -18,7 +18,7 @@ The file will contain the following (or similar, at least):
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>test First Page</string>
+			<string>SliderChangerPrefs First Page</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -57,7 +57,6 @@ You can change it so that it looks like this (using your own name instead of my 
 			<key>defaults</key>         <string>com.jontelang.sliderchangerprefs</string>
 			<key>key</key>              <string>SCisEnabled</string>
 			<key>label</key>            <string>Enabled</string>
-			<key>alternateColors</key>  <true/>
 			<key>PostNotification</key> <string>com.jontelang.sliderchangerprefs/settingschanged</string>
 		</dict>
 

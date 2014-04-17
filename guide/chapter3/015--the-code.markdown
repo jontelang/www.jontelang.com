@@ -8,13 +8,12 @@ indent: 1
 
 Time to write some actual code.
 
-Open `Tweak.xm` and remove all pre-written text. We will be working the class from the "The research" chapter called `SBAwayLockBar` and its method `setLabel`. 
-
+Open `Tweak.xm` and remove all pre-written text. We will be working the class from the "The research" chapter called `SBALockScreenView` and its method `-(void)setCustomSlideToUnlockText:(id)arg1`. 
 In your `Tweak.xm` write the following.
 
 {% highlight objective-c %}
-%hook SBAwayLockBar
--(void)setLabel:(id)arg1
+%hook SBLockScreenView
+-(void)setCustomSlideToUnlockText:(id)arg1
 {
 	arg1 = @"SliderChanger";
 	%orig(arg1);
@@ -22,7 +21,7 @@ In your `Tweak.xm` write the following.
 %end
 {% endhighlight %}
 
-This is pretty straight forward. You are "hooking" into the class `SBAwayLockBar` and hijacking the method `setLabel`. The argument `arg1` may say `id` but in reality it is an `NSString`. So we reset the argument to `@"SliderChanger"` and then we call the original method with the updated argument. We do this by calling `%orig(arg1)`.
+This is pretty straight forward. You are "hooking" into the class `SBLockScreenView` and hijacking the method `setCustomSlideToUnlockText`. The argument `arg1` may say `id` but in reality it is an `NSString`. So we reset the argument to `@"SliderChanger"` and then we call the original method with the updated argument. We do this by calling `%orig(arg1)`.
 
 We then close the `%hook` with `%end`.
 
