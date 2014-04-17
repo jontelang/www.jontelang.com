@@ -15,8 +15,8 @@ Open up your `Tweak.xm` and change it to this.
 static BOOL SCisEnabled = YES; // Default value
 static NSString* SCtext = nil;
 
-%hook SBAwayLockBar
-- (void)setLabel:(id)arg1
+%hook SBLockScreenView
+- (void)setCustomSlideToUnlockText:(id)arg1
 {
 	if(SCtext && SCisEnabled)
 	{
@@ -49,4 +49,4 @@ The `%ctor` thing here is a method which will run when the tweak is loaded, it w
 
 > TIP: Remember to (as in my case) make sure the value is actually present in the dictionary/file. Otherwise you might end up with mismatched default values and so on.
 
-The rest of the tweak is pretty straight forward. I just create some static variables and add the extra check in `setLabel` to make sure nothing is modified if the tweak is, for example, disabled.
+The rest of the tweak is pretty straight forward. I just create some static variables and add the extra check in `setCustomSlideToUnlockText` to make sure nothing is modified if the tweak is, for example, disabled.
