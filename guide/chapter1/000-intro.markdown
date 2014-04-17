@@ -21,3 +21,9 @@ It is for someone who is (ideally) comfortable with programming, interested in j
 If you already have experience with jailbroken development, chances are you already know everything in this guide. You might find something of value in the advanced section though.
 
 Good luck..
+
+#### Credits
+
+jontelang
+
+codyd51
