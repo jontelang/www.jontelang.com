@@ -16,7 +16,7 @@ To add / change / something in this section please go ahead to the [contact & co
 [http://developer.limneos.net/](http://developer.limneos.net/) - Has got headers for lots of iOS versions, all the way back to iOS 3.  
 Other random tutorials - [1](http://iky1e.tumblr.com/post/9561218739/jailbroken-development-starter-pack), [2](http://brandontreb.com/beginning-jailbroken-ios-development-getting-the-tools)  
 
-[Guide to greate your own repo](https://github.com/WinneonSword/tutorial-repository) - as it says.
+[Guide to create your own repo](https://github.com/WinneonSword/tutorial-repository) - as it says.
 
 
 #### Communities
