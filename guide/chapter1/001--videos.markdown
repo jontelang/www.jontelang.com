@@ -11,3 +11,7 @@ To aid in getting started I have, while writing this guide, made recordings of (
 [Setting up the development environment](http://www.youtube.com/watch?v=5XyoTtfCiMY) - Some parts are skippable, I am spending quite some time trying to install apt/ldid which may not be needed.  
 [Creating the tweak - part 1](http://www.youtube.com/watch?v=v7-k8BJ5xvw) - This shows the initial stages of a simple tweak, the very bare basics.  
 [Creating the tweak - part 2](http://www.youtube.com/watch?v=sXWaz2Je0HY) - This video shows how to add settings, look at output and such things.   
+
+#### More
+
+Another series made by Sassoty can be found [here](http://www.youtube.com/watch?v=lRoXdqk-w-U&list=PLFfSWxWm1or7fqB340OYjF8deWRWSDytc).

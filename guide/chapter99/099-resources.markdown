@@ -2,7 +2,7 @@
 title: Resources
 permalink: "resources.html"
 layout: default
-section: 4
+section: 5
 newsection: true
 ---
 
